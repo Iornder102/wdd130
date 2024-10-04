@@ -1,0 +1,59 @@
+
+:root {
+    --secondary-color: #0d1b2a;
+    --primary-color: #1b263b;
+    --acent1-color: #415a77;
+    --accent2-color: #e0e1dd;
+}
+* {
+    width: 500px;
+    margin: auto;
+    
+}
+nav logo {
+    width: 100px;
+    height: 100px;
+}
+h1 {
+    font-family: poppins, serif;
+    position: relative;
+    color: var(--primary-color);
+}
+h2 {
+    font-family: poppins, serif;
+    color: var(--primary-color);
+}
+h3 {
+    font-family: poppins, serif;
+    color: var(--primary-color);
+
+}
+.hero {
+    background-color: var(--secondary-color);
+}
+article img {
+    float: right;
+}
+article {
+    position: relative;
+}
+p {
+    font-family: montserrat;
+}
+.hero img {
+    float: right;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+div .hero {
+    position: absolute;
+}
+body {
+    font-family: montserrat, Verdana, Geneva;
+
+}
+.sociallinks {
+    text-decoration: none;
+    
+}
