@@ -20,6 +20,7 @@ h1 {
     font-family: poppins, serif;
     position: relative;
     color: var(--accent2-color);
+    background: transparent;
 }
 h2 {
     font-family: poppins, serif;
@@ -52,6 +53,7 @@ p {
 div .hero {
     position: absolute;
     opacity: 100%;
+    
 }
 body {
     font-family: montserrat, Verdana, Geneva;
