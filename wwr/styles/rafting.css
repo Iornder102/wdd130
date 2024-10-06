@@ -18,7 +18,7 @@ nav img {
 }
 h1 {
     font-family: poppins, serif;
-    font-weight: 200px;
+    font-weight: bold;
     position: absolute;
     background-color: transparent;
     color: var(--accent2-color);
