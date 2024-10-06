@@ -18,9 +18,11 @@ nav img {
 }
 h1 {
     font-family: poppins, serif;
-    position: relative;
+    font-weight: 200px;
+    position: absolute;
+    background-color: transparent;
     color: var(--accent2-color);
-    background: transparent;
+    margin-top: 80px;
 }
 h2 {
     font-family: poppins, serif;
@@ -33,6 +35,7 @@ h3 {
 }
 .hero {
     background-color: var(--acent1-color);
+    position: relative;
 }
 article img {
     float: right;
