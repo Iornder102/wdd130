@@ -7,15 +7,30 @@
 }
 * {
     width: 500px;
-    margin: auto;
-    
+    margin: auto;   
+}
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    margin: 1rem auto;
+    max-width: 1000px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    justify-content: space-around;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 15px;
 }
 nav img {
     width: 100px;
     height: 100px;
     max-width: 30%;
     max-height: 30%;
+
 }
+
 h1 {
     font-family: poppins, serif;
     font-weight: bold;
@@ -27,8 +42,10 @@ h1 {
 h2 {
     font-family: poppins, serif;
     color: var(--primary-color);
+    text-align: center;
 }
 h3 {
+    text-align: center;
     font-family: poppins, serif;
     color: var(--primary-color);
 
@@ -58,6 +75,17 @@ div .hero {
     opacity: 100%;
     
 }
+figcaption {
+    text-align: center;
+}
+#container img {
+    display: flex;
+    flex-direction: row;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    
+    
+}
 body {
     font-family: montserrat, Verdana, Geneva;
 
@@ -65,6 +93,8 @@ body {
 .sociallinks {
     text-decoration: none;
     display: flex;
-    max-width: 50%;
-    max-height: 50%;
+    float: right;
+    max-width:55%;
+    max-height: 55%;
+    justify-content: space-around;
 }
