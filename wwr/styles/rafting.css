@@ -1,100 +1,125 @@
-
 :root {
     --secondary-color: #0d1b2a;
     --primary-color: #1b263b;
     --acent1-color: #415a77;
     --accent2-color: #e0e1dd;
 }
+
 * {
-    width: 500px;
-    margin: auto;   
+    box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+}
+
+header,
+main,
+footer {
+    width: 1000px;
+    margin: auto;
+}
+
 header {
     display: grid;
-    grid-template-columns: 120px 1fr 2fr;
-    margin: 1rem auto;
-    max-width: 1000px;
+    grid-template-columns: 120px auto;
+    align-items: center;
     border-bottom: 1px solid #ccc;
 }
 
-nav a {
+.logo {
+    justify-self: center;
+}
+
+nav {
+    display: flex;
     justify-content: space-around;
-    padding-left: 30px;
-    text-decoration: none;
+}
+
+nav a {
+
     font-size: 15px;
 }
+
 nav img {
     width: 100px;
     height: 100px;
-    max-width: 30%;
-    max-height: 30%;
 
 }
 
-h1 {
-    font-family: poppins, serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
-    position: absolute;
+}
+
+h1 {
     background-color: transparent;
     color: var(--accent2-color);
     margin-top: 80px;
 }
-h2 {
-    font-family: poppins, serif;
-    color: var(--primary-color);
-    text-align: center;
-}
-h2 {
-    text-align: center;
-    font-family: poppins, serif;
-    color: var(--primary-color);
 
+h2 {
+    color: var(--primary-color);
+    text-align: center;
 }
+
 .hero {
     background-color: var(--acent1-color);
     position: relative;
 }
-article img {
-    float: right;
-    max-width: 30%;
+
+.hero h1 {
+    position: absolute;
+    top: 50px;
+    background-color: #3333336c;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+.hero article img {
+    float: right;
+    max-width: 200px;
+}
+
 article {
-    position: relative;
+    position: absolute;
+    top: 250px;
+    background-color: #ffffff8e;
+    padding: 1em;
+    left: 5em;
+    right: 5em;
 }
-p {
-    font-family: montserrat;
+
+body {
+    font-family: "Montserrat", sans-serif;
 }
+
 .hero img {
-    float: right;
     width: 100%;
     height: auto;
     display: block;
 }
-div .hero {
-    position: absolute;
-    opacity: 100%;
-    
-}
+
 figcaption {
     text-align: center;
 }
-#container img {
+
+.banner img {
     display: flex;
     flex-direction: row;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-around;
-    
-    
-}
-body {
-    font-family: montserrat, Verdana, Geneva;
+
 
 }
+
 .sociallinks {
-    text-decoration: none;
     display: flex;
-    float: right;
-    max-width:55%;
-    max-height: 55%;
+    max-width: 65px;
     justify-content: space-around;
 }
