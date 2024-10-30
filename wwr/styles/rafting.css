@@ -158,6 +158,17 @@ figure {
     text-align: center;
     margin: 10px;
 }
+.flexbox-item img {
+    width: 450px;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+}
+iframe {
+    width: 600;
+    height: 450;
+    border: 0;
+}
 footer {
     background-color: #0d1b2a;
     
